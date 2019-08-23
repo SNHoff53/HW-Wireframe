@@ -1,6 +1,7 @@
-/* ADDED TEXT ALIGN */
+/* ADDED MARGIN, PADDING HEADER, NAV, & SECTION*/
 * {
     box-sizing: border-box;
+    text-align: center;
   }
 
 body {
@@ -16,15 +17,21 @@ body {
 } */
 
 #header {
+    margin-bottom: 20px;
+    padding: 20px;
     background: #ebebeb;
 }
 
 #nav {
-
+    margin-bottom: 20px;
+    padding: 20px;
     background: #ebebeb;
 }
 
 #section {
+    padding: 30px;
+    overflow: auto;
+    width: 
     background: #ebebeb;
 }
 
@@ -48,6 +55,5 @@ body {
 }
 
 #footer {
-
     background: #ebebeb;
 }
