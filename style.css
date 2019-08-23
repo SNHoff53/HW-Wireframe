@@ -1,4 +1,4 @@
-/* PLAYED AROUND WITH PADDING AND POSIITONING */
+/* ASIDE LINE/UNDER SECTION ABOVE FOOTER */
 * {
     box-sizing: border-box;
     text-align: center;
@@ -17,18 +17,16 @@ body {
 } */
 
 #header {
-    position: relative;
     padding: 20px;
     margin-bottom: 20px;
     text-align: center;
-    float: right;
     background: #ebebeb;
 }
 
 #nav {
-    margin-bottom: 20px;
     padding: 20px;
-    float: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
     background: #ebebeb;
 }
 
@@ -37,10 +35,13 @@ body {
     overflow: auto;
     margin: 0, auto;
     height: 300px;
+    width: 400px;
     background: #ebebeb;
 }
 
 #article {
+    padding: 30px;
+    margin: 0; auto;
     color: #ebebeb;
     background: #777;
 }
@@ -56,14 +57,22 @@ body {
 }
 
 #aside {
-    position: absolute;
     padding: 30px;
     overflow: auto;
     margin: 0, auto;
-    height: 300px;
     background: #ebebeb;
 }
 
 #footer {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
     background: #ebebeb;
 }
+
+.clearfix::after {
+    content: " ";
+    clear: left;
+    display: block;
+  }
+  
