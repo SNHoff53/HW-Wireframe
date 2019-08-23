@@ -1,4 +1,4 @@
-/* WEIRD OPENING IN ARTICLE */
+/* NO SPACING BETWEEN H1-H3 AND P AND ARTICLE */
 * {
     box-sizing: border-box;
     text-align: center;
@@ -33,7 +33,8 @@ body {
 #section {
     padding: 30px;
     overflow: auto;
-    margin-bottom: 20, auto;
+    margin-bottom: 20;
+    margin-right: 0px;
     height: 300px;
     width: 500px;
     background: #ebebeb;
@@ -42,18 +43,20 @@ body {
 #article {
     padding: 30px;
     margin: 0, auto;
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 450px;
     color: #ebebeb;
     background: #777;
 }
 
 #h1 {
+    padding: 30px;
     color: #777;
     background: #ebebeb;
 }
 
 #p {
+    padding: 30px;
     color: #777;
     background: #ebebeb;
 }
