@@ -1,4 +1,4 @@
-/* ADDED MARGIN, PADDING TO HEADER, NAV, & SECTION*/
+/* PLAYING AROUND WITH MARGINS OF HEADER */
 * {
     box-sizing: border-box;
     text-align: center;
@@ -19,6 +19,8 @@ body {
 #header {
     margin-bottom: 20px;
     padding: 20px;
+    margin: 0, auto;
+    height: 200px;
     background: #ebebeb;
 }
 
@@ -36,11 +38,13 @@ body {
 }
 
 #article {
+    
     color: #ebebeb;
     background: #777;
 }
 
 #h1 {
+    
     color: #777;
     background: #ebebeb;
 }
