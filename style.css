@@ -1,4 +1,4 @@
-/* ASIDE LINE/UNDER SECTION ABOVE FOOTER */
+/* WEIRD OPENING IN ARTICLE */
 * {
     box-sizing: border-box;
     text-align: center;
@@ -33,15 +33,17 @@ body {
 #section {
     padding: 30px;
     overflow: auto;
-    margin: 0, auto;
+    margin-bottom: 20, auto;
     height: 300px;
-    width: 400px;
+    width: 500px;
     background: #ebebeb;
 }
 
 #article {
     padding: 30px;
-    margin: 0; auto;
+    margin: 0, auto;
+    height: 300px;
+    width: 400px;
     color: #ebebeb;
     background: #777;
 }
@@ -58,8 +60,8 @@ body {
 
 #aside {
     padding: 30px;
-    overflow: auto;
-    margin: 0, auto;
+    height: 300px;
+    width: 400px;
     background: #ebebeb;
 }
 
@@ -75,4 +77,3 @@ body {
     clear: left;
     display: block;
   }
-  
