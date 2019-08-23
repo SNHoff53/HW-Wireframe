@@ -1,4 +1,4 @@
-/* <!--SETTING UP STYLES FOR ELEMENTS--> */
+/* ADDED TEXT ALIGN */
 * {
     box-sizing: border-box;
   }
@@ -12,9 +12,7 @@ body {
 }
 
 /* .wrapper {
-    width: 600px;
-    padding: 50px;
-    margin: 0;
+    width: 495px;
 } */
 
 #header {
@@ -22,6 +20,7 @@ body {
 }
 
 #nav {
+
     background: #ebebeb;
 }
 
@@ -34,7 +33,12 @@ body {
     background: #777;
 }
 
-#h1, #h2, #h3, #p {
+#h1 {
+    color: #777;
+    background: #ebebeb;
+}
+
+#p {
     color: #777;
     background: #ebebeb;
 }
@@ -44,5 +48,6 @@ body {
 }
 
 #footer {
+
     background: #ebebeb;
 }
